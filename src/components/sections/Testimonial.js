@@ -69,7 +69,6 @@ const Testimonial = ({
                   <span className="testimonial-item-name text-color-high">Roman Level</span>
                   <span className="text-color-low"> / </span>
                   <span className="testimonial-item-link">
-                    <a href="#0">AppName</a>
                   </span>
                 </div>
               </div>
@@ -80,15 +79,12 @@ const Testimonial = ({
               <h2>GitHub</h2>
                 <div className="testimonial-item-content">
                   <p className="text-sm mb-0">
-                    GitHub
+                    <a href="https://github.com/WyntonD">GitHub Profile</a>
                       </p>
                 </div>
                 <div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider">
                   <span className="testimonial-item-name text-color-high">Diana Rynzhuk</span>
                   <span className="text-color-low"> / </span>
-                  <span className="testimonial-item-link">
-                    <a href="#0">AppName</a>
-                  </span>
                 </div>
               </div>
             </div>
