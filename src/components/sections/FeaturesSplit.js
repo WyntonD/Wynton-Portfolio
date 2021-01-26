@@ -74,7 +74,7 @@ const FeaturesSplit = ({
                   A React based app used for leasing and purchasing of music beats.
                   </p>
                   <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-               Technologies Used: ReactJS, Heroku, NodeJS, Semantics UI, Bootstrap, Mongoose, Express, Google fonts
+               Technologies Used: GitHub, ReactJS, NodeJS, Email-JS, Bootstrap-Icons, Framer Motion, jQuery, React Moment, React Player, Ant Design, Ant Design Icons, Semantics UI, Bootstrap, Mongoose, Express, Google fonts
                   </div>
               </div>
               <div className={
@@ -100,7 +100,7 @@ const FeaturesSplit = ({
                 A Node JS project created to display information of music artist’s songs and albums information with Spotify, concerts with Bands in Town, and movies with OMDB.
                   </p>
                   <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                Technologies Used: NodeJS, Spotify-API, Axios, Moment, DotEnv
+                Technologies Used: GitHub, NodeJS, Spotify-API, Axios, Moment, DotEnv, File system
                   </div>
               </div>
               <div className={
