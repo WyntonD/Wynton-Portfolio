@@ -76,6 +76,16 @@ const FeaturesSplit = ({
                   <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
                Technologies Used: GitHub, ReactJS, NodeJS, Email-JS, Bootstrap-Icons, Framer Motion, jQuery, React Moment, React Player, Ant Design, Ant Design Icons, Semantics UI, Bootstrap, Mongoose, Express, Google fonts
                   </div>
+                  <div className="reveal-from-bottom" data-reveal-delay="600">
+                    <ButtonGroup>
+                      <Button tag="a" color="primary" wideMobile href="https://github.com/WyntonD/Wyntluger">
+                        GitHub
+                        </Button>
+                      <Button tag="a" color="dark" wideMobile href="https://wyntluger.com/">
+                        Site
+                        </Button>
+                    </ButtonGroup>
+                  </div>
               </div>
               <div className={
                 classNames(
@@ -102,6 +112,13 @@ const FeaturesSplit = ({
                   <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
                 Technologies Used: GitHub, NodeJS, Spotify-API, Axios, Moment, DotEnv, File system
                   </div>
+                  <div className="reveal-from-bottom" data-reveal-delay="600">
+                    <ButtonGroup>
+                      <Button tag="a" color="primary" wideMobile href="https://github.com/WyntonD/LIRI-Node-App">
+                        GitHub
+                        </Button>
+                    </ButtonGroup>
+                  </div>
               </div>
               <div className={
                 classNames(
@@ -127,6 +144,16 @@ const FeaturesSplit = ({
                   </p>
                   <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
                   Technologies Used: ReactJS, Express, Mongoose, Path, Bootstrap, NodeJS  
+                  </div>
+                  <div className="reveal-from-bottom" data-reveal-delay="600">
+                    <ButtonGroup>
+                      <Button tag="a" color="primary" wideMobile href="https://cruip.com/">
+                        GitHub
+                        </Button>
+                      <Button tag="a" color="dark" wideMobile href="https://github.com/cruip/open-react-template/">
+                        Site
+                        </Button>
+                    </ButtonGroup>
                   </div>
               </div>
               <div className={
