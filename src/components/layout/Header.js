@@ -112,10 +112,10 @@ const Header = ({
                       navPosition && `header-nav-${navPosition}`
                     )}>
                     <li>
-                      <Link to="#0" onClick={closeMenu}>LinkedIn</Link>
+                      <a href="https://www.linkedin.com/in/wynton-davis-a63119187/" onClick={closeMenu}>LinkedIn</a>
                     </li>
                     <li>
-                      <Link to="#0" onClick={closeMenu}>GitHub</Link>
+                      <a href="https://github.com/WyntonD" onClick={closeMenu}>GitHub</a>
                     </li>
                   </ul>
                   {!hideSignin &&

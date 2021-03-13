@@ -55,6 +55,10 @@ const FeaturesSplit = ({
     title: 'Projects'
   };
 
+  const titleStyle = {
+    fontFamily: "'Bodoni Moda', serif"
+  }
+
   return (
     <section
       {...props}
@@ -67,10 +71,10 @@ const FeaturesSplit = ({
 
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
-                <h3 className="mt-0 mb-12">
+                <h3 className="mt-0 mb-12" style={titleStyle}>
                   Wyntluger Beats
                   </h3>
-                <p className="m-0">
+                <p className="m-0" style={titleStyle}>
                   A React based app used for leasing and purchasing of music beats.
                   </p>
                   <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
@@ -94,8 +98,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-01.png')}
-                  alt="Features split 01"
+                  src={require('./../../assets/images/wyntlugerscreenshot.jpg')}
                   width={528}
                   height={396} />
               </div>
@@ -103,10 +106,10 @@ const FeaturesSplit = ({
 
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
-                <h3 className="mt-0 mb-12">
+                <h3 className="mt-0 mb-12" style={titleStyle}>
                   LIRI NODE App
                   </h3>
-                <p className="m-0">
+                <p className="m-0" style={titleStyle}>
                 A Node JS project created to display information of music artist’s songs and albums information with Spotify, concerts with Bands in Town, and movies with OMDB.
                   </p>
                   <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
@@ -127,7 +130,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-02.png')}
+                  src={require('./../../assets/images/liriscreenshot.jpg')}
                   alt="Features split 02"
                   width={528}
                   height={396} />
@@ -136,10 +139,10 @@ const FeaturesSplit = ({
 
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
-                <h3 className="mt-0 mb-12">
+                <h3 className="mt-0 mb-12" style={titleStyle}>
                   Google Books Search
                   </h3>
-                <p className="m-0">
+                <p className="m-0" style={titleStyle}>
                 An React app created with intent to search, save, and/or purchase books using Google’s Book API
                   </p>
                   <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
@@ -163,7 +166,7 @@ const FeaturesSplit = ({
                 )}
                 data-reveal-container=".split-item">
                 <Image
-                  src={require('./../../assets/images/features-split-image-03.png')}
+                  src={require('./../../assets/images/google.jpg')}
                   alt="Features split 03"
                   width={528}
                   height={396} />

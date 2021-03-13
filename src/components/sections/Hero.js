@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import classNames from 'classnames';
 import { SectionProps } from '../../utils/SectionProps';
-import ButtonGroup from '../elements/ButtonGroup';
-import Button from '../elements/Button';
 import Image from '../elements/Image';
 import Modal from '../elements/Modal';
 
@@ -60,7 +58,9 @@ const Hero = ({
       <div className="container-sm">
         <div className={innerClasses}>
           <div className="hero-content">
-            <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
+            <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200"
+                style={{fontFamily: "'Bodoni Moda', serif"}}
+            >
               Full Stack <span className="text-color-primary">Developer</span>
             </h1>
             <div className="container-xs">
@@ -78,10 +78,10 @@ const Hero = ({
             >
               <Image
                 className="has-shadow"
-                src={require('./../../assets/images/video-placeholder.jpg')}
+                src={require('./../../assets/images/faceshot.jpg')}
                 alt="Hero"
-                width={896}
-                height={504} />
+                width={200}
+                height={404} />
             </a>
           </div>
           <Modal
