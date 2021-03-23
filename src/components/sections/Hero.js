@@ -65,7 +65,7 @@ const Hero = ({
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-                Keen eye for quality and precision.
+                Keen eye for quality and precision
                 </p>
             </div>
           </div>

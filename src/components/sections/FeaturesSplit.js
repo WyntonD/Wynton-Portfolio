@@ -143,7 +143,7 @@ const FeaturesSplit = ({
                   Google Books Search
                   </h3>
                 <p className="m-0" style={titleStyle}>
-                An React app created with intent to search, save, and/or purchase books using Google’s Book API
+                A React app created with intent to search, save, and/or purchase books using Google’s Book API
                   </p>
                   <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
                   Technologies Used: ReactJS, Express, Mongoose, Path, Bootstrap, NodeJS  
