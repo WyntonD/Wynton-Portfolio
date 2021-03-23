@@ -45,7 +45,7 @@ const FeaturesTiles = ({
 
   const sectionHeader = {
     title: 'About Me',
-    paragraph: "I'm a full stack web developer with a passion for quality and precision. Prior to my coding experience, I was geared to pursue medecine as an undergraduate student. However I continually grew curious of the technology we use everyday to look up proper terminologies for our everyday lives. This led me to follow my curiosity and get certified as Full Stack Web Developer and I haven't looked back since. The mixture of ingenuity, teamwork, and consistencty can produce great outputs beneficial to the overall improvement of our everyday lives. "
+    paragraph: "I'm a full stack web developer with a passion for quality and precision. Prior to my coding experience, I was geared to pursue medecine as an undergraduate student. However I continually grew curious of the technology we use everyday to look up proper terminologies. This led me to follow my curiosity and get certified as Full Stack Web Developer and I haven't looked back since. The mixture of ingenuity, teamwork, and consistencty can produce great outputs beneficial to the overall improvement of our everyday lives. "
   };
 
   return (
