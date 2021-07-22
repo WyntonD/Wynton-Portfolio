@@ -68,8 +68,76 @@ const FeaturesSplit = ({
         <div className={innerClasses}>
           <SectionHeader data={sectionHeader} className="center-content" />
           <div className={splitClasses}>
-
             <div className="split-item">
+              <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
+                <h3 className="mt-0 mb-12" style={titleStyle}>
+                  <strong>Ana</strong> - The Weather Bot
+                  </h3>
+                <p className="m-0" style={titleStyle}>
+                  A UI Path based robot that reports the weather for any city in the world.
+                  </p>
+                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                  Technologies Used: UI Path, GitHub
+                  </div>
+                {/* <div className="reveal-from-bottom" data-reveal-delay="600">
+                  <ButtonGroup>
+                    <Button tag="a" color="primary" wideMobile href="https://github.com/WyntonD/Wyntluger">
+                      GitHub
+                        </Button>
+                    <Button tag="a" color="dark" wideMobile href="https://wyntluger.com/">
+                      Site
+                        </Button>
+                  </ButtonGroup>
+                </div> */}
+              </div>
+              <div className={
+                classNames(
+                  'split-item-image center-content-mobile reveal-from-bottom',
+                  imageFill && 'split-item-image-fill'
+                )}
+                data-reveal-container=".split-item">
+                <Image
+                  src={require('./../../assets/images/weather.jpeg')}
+                  width={528}
+                  height={396} />
+              </div>
+            </div>
+            <div className="split-item">
+              <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
+                <h3 className="mt-0 mb-12" style={titleStyle}>
+                  <strong>Gloria</strong> - eCommerce Bot
+                  </h3>
+                <p className="m-0" style={titleStyle}>
+                  A UI Path designed bot used to retrieve product data from online stores and input data into Excel spreadsheets for storage and emails
+                  </p>
+                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                  Technologies Used: UI Path, GitHub
+                  </div>
+                {/* <div className="reveal-from-bottom" data-reveal-delay="600">
+                  <ButtonGroup>
+                    <Button tag="a" color="primary" wideMobile href="https://github.com/WyntonD/Wyntluger">
+                      GitHub
+                        </Button>
+                    <Button tag="a" color="dark" wideMobile href="https://wyntluger.com/">
+                      Site
+                        </Button>
+                  </ButtonGroup>
+                </div> */}
+              </div>
+              <div className={
+                classNames(
+                  'split-item-image center-content-mobile reveal-from-bottom',
+                  imageFill && 'split-item-image-fill'
+                )}
+                data-reveal-container=".split-item">
+                <Image
+                  src={require('./../../assets/images/h&m.jpeg')}
+                  width={528}
+                  height={396} />
+              </div>
+            </div>
+
+            {/* <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-left" data-reveal-container=".split-item">
                 <h3 className="mt-0 mb-12" style={titleStyle}>
                   Wyntluger Beats
@@ -77,19 +145,19 @@ const FeaturesSplit = ({
                 <p className="m-0" style={titleStyle}>
                   A React based app used for leasing and purchasing of music beats.
                   </p>
-                  <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-               Technologies Used: GitHub, ReactJS, NodeJS, Email-JS, Bootstrap-Icons, Framer Motion, jQuery, React Moment, React Player, Ant Design, Ant Design Icons, Semantics UI, Bootstrap, Mongoose, Express, Google fonts
+                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                  Technologies Used: GitHub, ReactJS, NodeJS, Email-JS, Bootstrap-Icons, Framer Motion, jQuery, React Moment, React Player, Ant Design, Ant Design Icons, Semantics UI, Bootstrap, Mongoose, Express, Google fonts
                   </div>
-                  <div className="reveal-from-bottom" data-reveal-delay="600">
-                    <ButtonGroup>
-                      <Button tag="a" color="primary" wideMobile href="https://github.com/WyntonD/Wyntluger">
-                        GitHub
+                <div className="reveal-from-bottom" data-reveal-delay="600">
+                  <ButtonGroup>
+                    <Button tag="a" color="primary" wideMobile href="https://github.com/WyntonD/Wyntluger">
+                      GitHub
                         </Button>
-                      <Button tag="a" color="dark" wideMobile href="https://wyntluger.com/">
-                        Site
+                    <Button tag="a" color="dark" wideMobile href="https://wyntluger.com/">
+                      Site
                         </Button>
-                    </ButtonGroup>
-                  </div>
+                  </ButtonGroup>
+                </div>
               </div>
               <div className={
                 classNames(
@@ -102,7 +170,7 @@ const FeaturesSplit = ({
                   width={528}
                   height={396} />
               </div>
-            </div>
+            </div> */}
 
             <div className="split-item">
               <div className="split-item-content center-content-mobile reveal-from-right" data-reveal-container=".split-item">
@@ -110,18 +178,18 @@ const FeaturesSplit = ({
                   LIRI NODE App
                   </h3>
                 <p className="m-0" style={titleStyle}>
-                A Node JS project created to display information of music artist’s songs and albums information with Spotify, concerts with Bands in Town, and movies with OMDB.
+                  A Node JS project created to display information of music artist’s songs and albums information with Spotify, concerts with Bands in Town, and movies with OMDB.
                   </p>
-                  <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                Technologies Used: GitHub, NodeJS, Spotify-API, Axios, Moment, DotEnv, File system
+                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                  Technologies Used: GitHub, NodeJS, Spotify-API, Axios, Moment, DotEnv, File system
                   </div>
-                  <div className="reveal-from-bottom" data-reveal-delay="600">
-                    <ButtonGroup>
-                      <Button tag="a" color="primary" wideMobile href="https://github.com/WyntonD/LIRI-Node-App">
-                        GitHub
+                <div className="reveal-from-bottom" data-reveal-delay="600">
+                  <ButtonGroup>
+                    <Button tag="a" color="primary" wideMobile href="https://github.com/WyntonD/LIRI-Node-App">
+                      GitHub
                         </Button>
-                    </ButtonGroup>
-                  </div>
+                  </ButtonGroup>
+                </div>
               </div>
               <div className={
                 classNames(
@@ -143,18 +211,18 @@ const FeaturesSplit = ({
                   Google Books Search
                   </h3>
                 <p className="m-0" style={titleStyle}>
-                A React app created with intent to search, save, and/or purchase books using Google’s Book API
+                  A React app created with intent to search, save, and/or purchase books using Google’s Book API
                   </p>
-                  <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-                  Technologies Used: ReactJS, Express, Mongoose, Path, Bootstrap, NodeJS  
+                <div className="text-xxs text-color-primary fw-600 tt-u mb-8">
+                  Technologies Used: ReactJS, Express, Mongoose, Path, Bootstrap, NodeJS
                   </div>
-                  <div className="reveal-from-bottom" data-reveal-delay="600">
-                    <ButtonGroup>
-                      <Button tag="a" color="primary" wideMobile href="https://github.com/WyntonD/Google-Books-Search">
-                        GitHub
+                <div className="reveal-from-bottom" data-reveal-delay="600">
+                  <ButtonGroup>
+                    <Button tag="a" color="primary" wideMobile href="https://github.com/WyntonD/Google-Books-Search">
+                      GitHub
                         </Button>
-                    </ButtonGroup>
-                  </div>
+                  </ButtonGroup>
+                </div>
               </div>
               <div className={
                 classNames(

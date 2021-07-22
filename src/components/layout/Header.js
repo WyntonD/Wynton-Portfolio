@@ -44,7 +44,7 @@ const Header = ({
       document.removeEventListener('click', clickOutside);
       closeMenu();
     };
-  });  
+  });
 
   const openMenu = () => {
     document.body.classList.add('off-nav-is-active');
@@ -66,7 +66,7 @@ const Header = ({
     if (!nav.current) return
     if (!isActive || nav.current.contains(e.target) || e.target === hamburger.current) return;
     closeMenu();
-  }  
+  }
 
   const classes = classNames(
     'site-header',
@@ -85,7 +85,7 @@ const Header = ({
             'site-header-inner',
             bottomDivider && 'has-bottom-divider'
           )}>
-          <h3 style={{fontFamily: "'Bodoni Moda', serif"}}>Wynton Davis</h3>
+          <h3 style={{ fontFamily: "'Bodoni Moda', serif" }}>Wynton Davis</h3>
           {!hideNav &&
             <>
               <button
@@ -123,7 +123,7 @@ const Header = ({
                       className="list-reset header-nav-right"
                     >
                       <li>
-                        <a href="https://docdro.id/k9hq1mE">Resume</a>
+                        <a href="https://drive.google.com/file/d/1-7KhSsV1qHigbcl35ybpRYp3iAa72qzy/view?usp=sharing">Resume</a>
                         {/* <Link to="#0" className="button button-primary button-wide-mobile button-sm" onClick={closeMenu}>Resume</Link> */}
                       </li>
                     </ul>}
