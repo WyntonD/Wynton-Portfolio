@@ -85,6 +85,7 @@ const Header = ({
             'site-header-inner',
             bottomDivider && 'has-bottom-divider'
           )}>
+            
           <h3 style={{ fontFamily: "'Bodoni Moda', serif" }}>Wynton Davis</h3>
           {!hideNav &&
             <>

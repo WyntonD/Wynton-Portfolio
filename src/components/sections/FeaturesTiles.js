@@ -45,7 +45,7 @@ const FeaturesTiles = ({
 
   const sectionHeader = {
     title: 'About Me',
-    paragraph: "I'm an RPA and Full Stack Developer with a passion for quality and precision. Prior to my coding experience, I was geared to pursue medicine as an undergraduate student. However I continually grew curious of the technology we use everyday to look up proper terminologies. This led me to follow my curiosity and get certified and I haven't looked back since. The mixture of ingenuity, teamwork, and consistencty can produce amazing outputs that will benefit our productivity to affect great change in lives every day. Growth is power."
+    paragraph: "I'm an RPA and Full Stack Developer with a passion for quality and precision. Prior to my coding experience, I was geared to pursue medicine as an undergraduate student. However I continually grew curious of the technology we use everyday to look up proper terminologies. This led me to follow my curiosity and get certified and I haven't looked back since. The mixture of ingenuity, teamwork, and consistencty can produce amazing outputs that will benefit our productivity to affect great change in our daily lives."
   };
 
   return (
