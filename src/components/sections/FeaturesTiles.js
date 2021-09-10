@@ -55,7 +55,7 @@ const FeaturesTiles = ({
     >
       <div className="container">
         <div className={innerClasses}>
-          <SectionHeader data={sectionHeader} className="center-content" style={{ fontFamily: "'Bodoni Moda', serif", color: "purple" }} />
+          <SectionHeader data={sectionHeader} className="center-content" style={{ fontFamily: "'Bodoni Moda', serif" }} />
           <h3>Skillsets</h3>
           <div className={tilesClasses}>
             <div className="tiles-item reveal-from-bottom" data-reveal-delay="200">
